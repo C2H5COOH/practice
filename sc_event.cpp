@@ -49,6 +49,7 @@ SC_MODULE (events) {
 
 int sc_main (int argc, char* argv[]) {
   sc_clock Tclock ("my_clock",1,SC_NS,0.5);
+  cout<<"motherfucker"<<endl;
   //sc_event  E1,E2;
 
   events  object("events");
